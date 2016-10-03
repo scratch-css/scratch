@@ -2,7 +2,7 @@
 Scratch is the CSS framework and methodology to build powerful web, mobile and TV applications with one codebase. It has powerful API which covers all sections app may need to use CSS including colors and unit management, layout and typography sets, and responsive layout. This is a basic setting and methodology which makes your CSS life easier. Just follow it.
 
 ### Preprocessors
-Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that this is the best setting to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depends on demand.
+Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that this is the best setting to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
 ### History
 Scratch has a little history. It slowly begun to be developed back in 2014. [The first version](https://github.com/nikoloza/scratch) of it was written on LESS. It had mostly UI components, also with different approaches of some techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system and colors scheme. Then I slowly cleaned from unnesessary things and now it has became very lightweight framework which gives a basic guidance of the methodology.
@@ -10,7 +10,7 @@ Scratch has a little history. It slowly begun to be developed back in 2014. [The
 ### Author(s)
 - [nikoloza](https://github.com/nikoloza) - Creator of scratch.
 - [vigour-io](https://github.com/vigour-io) - Significant improvements and cool ideas have came while working at Vigour.
-- You can also become supporter by [contributing](#Contribution), [creating an issue](https://github.com/scratch-css/scratch/issues) for any new idea or just [being a stargazer](https://github.com/scratch-css/scratch/stargazers).
+- You can also become supporter by [contributing](#contribution), [creating an issue](https://github.com/scratch-css/scratch/issues) for any new idea or just [being a stargazer](https://github.com/scratch-css/scratch/stargazers).
 
 ### License
 Scratch is [MIT licensed](LICENSE)
