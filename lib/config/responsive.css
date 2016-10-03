@@ -1,0 +1,39 @@
+/** Reponsive breakpoints */
+
+:root {
+  --phone: 320px;
+  --phone-landscape: 480px;
+  --tablet: 768px;
+  --tablet-landscape: 1024px;
+  --screen-small: 1225px;
+  --screen-medium: 1366px;
+  --screen-big: 1680px;
+}
+
+@custom-media --bigger-than-phone (width >= 320px);
+
+@custom-media --smaller-than-phone (width < 320px);
+
+@custom-media --smaller-than-phone-landscape (width < 480px);
+
+@custom-media --bigger-than-phone-landscape (width >= 480px);
+
+@custom-media --bigger-than-tablet (width >= 768px);
+
+@custom-media --smaller-than-tablet (width < 768px);
+
+@custom-media --smaller-than-tablet-landscape (width < 1024px);
+
+@custom-media --bigger-than-tablet-landscape (width >= 1024px);
+
+@custom-media --bigger-than-screen-small (width >= 1225px);
+
+@custom-media --smaller-than-screen-small (width < 1225px);
+
+@custom-media --bigger-than-screen-medium (width >= 1366px);
+
+@custom-media --smaller-than-screen-medium (width < 1366px);
+
+@custom-media --bigger-than-screen-big (width >= 1680px);
+
+@custom-media --smaller-than-screen-big (width < 1680px);

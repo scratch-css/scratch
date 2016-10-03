@@ -1,0 +1,12 @@
+/** Document configuration */
+
+:root {
+  --document-color: #eee;
+  --document-background: #161616;
+  --document-font-size: var(--h6);
+  --document-font-style: normal;
+  --document-font-weight: var(--font-regular);
+  --document-font-variant: normal;
+  --document-line-height: 1.4;
+  --document-font-family: var(--font-family-sans-serif);
+}

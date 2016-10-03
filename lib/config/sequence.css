@@ -1,0 +1,19 @@
+/**
+ * Given sequences below represent Golden Ratio like
+ * symetries for web layout and typography sets.
+ * The default and main sequence can be the Golden Ratio
+ * formula (aka phi - 1.618). The list is taken from
+ * http://type-scale.com/
+ */
+
+:root {
+  --minor-second: 1.067;
+  --major-second: 1.125;
+  --minor-third: 1.2;
+  --major-third: 1.25;
+  --perfect-fourth: 1.333;
+  --augmented-fourth: 1.414;
+  --perfect-fifth: 1.5;
+  --phi: 1.618;
+  --golden-ratio: var(--phi);
+}

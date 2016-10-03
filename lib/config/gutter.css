@@ -1,0 +1,13 @@
+/** Gutters */
+
+:root {
+  --gutter-sequence: var(--golden-ratio);
+  --gutter-unit: var(--unit);
+  --gutter-base: 1.5;
+
+  --gutter: var(--gutter-base)var(--gutter-unit);
+  --gutter-tiny: calc(var(--gutter-small) / var(--gutter-sequence));
+  --gutter-small: calc(var(--gutter) / var(--gutter-sequence));
+  --gutter-big: calc(var(--gutter) * var(--gutter-sequence));
+  --gutter-large: calc(var(--gutter-big) * var(--gutter-sequence));
+}

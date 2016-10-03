@@ -1,0 +1,9 @@
+/** Transition */
+
+:root {
+  --transition-duration: .3s;
+  --transition-sequence: var(--golden-ratio);
+
+  --transition-duration-short: calc(var(--transition-duration) / var(--transition-sequence));
+  --transition-duration-long: calc(var(--transition-duration) * var(--transition-sequence));
+}

@@ -1,0 +1,21 @@
+/** Headings */
+
+:root {
+  --heading-family: var(--font-family-sans-serif);
+  --heading-weight: var(--document-font-weight);
+  --heading-line-height: 1.2;
+  --heading-margin: .3em 0 .1em;
+
+  --heading-unit: var(--unit);
+  --heading-sequence: var(--font-sequence);
+  --heading-median: 1.4;
+  --heading-base: var(--heading-median)var(--heading-unit);
+
+  --h0: calc(var(--h1) * var(--heading-sequence));
+  --h1: calc(var(--h2) * var(--heading-sequence));
+  --h2: calc(var(--h3) * var(--heading-sequence));
+  --h3: calc(var(--h4) * var(--heading-sequence));
+  --h4: calc(var(--h5) * var(--heading-sequence));
+  --h5: calc(var(--h6) * var(--heading-sequence));
+  --h6: var(--heading-base);
+}

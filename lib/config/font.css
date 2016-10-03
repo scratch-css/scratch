@@ -1,0 +1,19 @@
+/** Typography */
+
+:root {
+  --font-serif: 'Times New Roman';
+  --font-sans-serif: "Source Sans Pro";
+  --font-monospace: 'Courier New';
+  --font-family-serif: var(--font-serif), Times, serif;
+  --font-family-sans-serif: var(--font-sans-serif), -apple-system, Helvetica, Arial, sans-serif;
+  --font-family-monospace: 'Courier New', Courier, monospace;
+  --font-slim: 200;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semibold: 500;
+  --font-bold: 700;
+  --font-extrabold: 900;
+
+  /** sequence */
+  --font-sequence: var(--major-second);
+}
