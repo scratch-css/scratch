@@ -1,6 +1,21 @@
 # Scratch framework
 Scratch is the CSS framework and methodology to build powerful web, mobile and TV applications with one codebase. It has powerful API which covers all sections app may need to use CSS including colors and unit management, layout and typography sets, and responsive layout. This is a basic setting and methodology which makes your CSS life easier. Just follow it.
 
+-
+
+## Setup
+To run a project, you probably need [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/cli/install) installed.
+
+To install dependencies you need to run:
+
+    npm i webpack webpack-dev-server -g && npm i
+
+To run, you can use:
+
+    npm start
+
+-
+
 ### Preprocessors
 Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that this is the best setting to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
