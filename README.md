@@ -17,7 +17,7 @@ To run, you can use:
 --
 
 ### Visualization
-Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, I will also provide UI components on top of it in [this repository](https://github.com/scratch-css/ui). So you can install them via npm.
+Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, I will also provide UI components on top of it in [this repository](https://github.com/scratch-css/ui). So, you will can install them via npm.
 
 --
 
