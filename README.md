@@ -16,6 +16,11 @@ To run, you can use:
 
 --
 
+### Visualization
+Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, I will also provide UI components on top of it in [this repository](https://github.com/scratch-css/ui). So you can install them via npm.
+
+--
+
 ### Preprocessors
 Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that this is the best setting to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
@@ -27,7 +32,7 @@ Scratch has a little history. It slowly begun to be developed back in 2014. [The
 --
 
 ### Author(s)
-- [nikoloza](https://github.com/nikoloza) - Creator of scratch.
+- [nikoloza](https://github.com/nikoloza) - Creator of Scratch.
 - [vigour-io](https://github.com/vigour-io) - Significant improvements and cool ideas have came while working at Vigour.
 - You can also become supporter by [contributing](#contribution), [creating an issue](https://github.com/scratch-css/scratch/issues) for any new idea or just [being a stargazer](https://github.com/scratch-css/scratch/stargazers).
 
