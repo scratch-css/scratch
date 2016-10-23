@@ -1,5 +1,5 @@
 # Scratch framework
-Scratch is the CSS framework and methodology to build powerful web, mobile and TV applications with one codebase. It has powerful API which covers all sections app may need to use CSS including colors and unit management, layout and typography sets, and responsive layout. This is a basic setting and methodology which makes your CSS life easier. Just follow it.
+Scratch is the CSS framework and methodology to build powerful web, mobile and TV applications with one codebase. It has powerful API which covers all sections app may need to use CSS, including colors, unit management, layout and typography sets, and responsive layout. This is a basic setting and methodology which makes your CSS clean and easy. Just follow it.
 
 --
 
