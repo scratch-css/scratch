@@ -6,9 +6,9 @@
   --heading-line-height: 1.2;
   --heading-margin: .3em 0 .1em;
 
-  --heading-unit: var(--unit);
+  --heading-unit: var(--font-unit);
   --heading-sequence: var(--font-sequence);
-  --heading-median: 1.4;
+  --heading-median: var(--font-median);
   --heading-base: var(--heading-median)var(--heading-unit);
 
   --h0: calc(var(--h1) * var(--heading-sequence));
