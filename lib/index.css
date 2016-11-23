@@ -1,15 +1,3 @@
 /** Scratch framework */
-
 @import "./reset.css";
-
-@import "./config/colors.css";
-@import "./config/document.css";
-@import "./config/font.css";
-@import "./config/gutter.css";
-@import "./config/headings.css";
-@import "./config/link.css";
-@import "./config/paragraph.css";
-@import "./config/responsive.css";
-@import "./config/sequence.css";
-@import "./config/transition.css";
-@import "./config/unit.css";
+@import "./config/index.css";
