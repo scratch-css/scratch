@@ -18,4 +18,8 @@
   --h4: calc(var(--h5) * var(--heading-sequence));
   --h5: calc(var(--h6) * var(--heading-sequence));
   --h6: var(--heading-base);
+  --h7: calc(var(--h6) / var(--heading-sequence));
+  --h8: calc(var(--h7) / var(--heading-sequence));
+  --h9: calc(var(--h8) / var(--heading-sequence));
+  --h10: calc(var(--h9) / var(--heading-sequence));
 }
