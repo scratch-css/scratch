@@ -10,8 +10,8 @@
   --primary-hover-blackness: +5%;
   --primary-focus-blackness: +10%;
 
-  --primary-constrast-hover-blackness: -5%;
-  --primary-constrast-focus-blackness: -10%;
+  --primary-contrast-hover-blackness: -5%;
+  --primary-contrast-focus-blackness: -10%;
 
   /* for using */
   --primary-hover: color(var(--primary)
@@ -30,8 +30,8 @@
   --secondary-hover-blackness: +5%;
   --secondary-focus-blackness: +10%;
 
-  --secondary-constrast-hover-blackness: -5%;
-  --secondary-constrast-focus-blackness: -10%;
+  --secondary-contrast-hover-blackness: -5%;
+  --secondary-contrast-focus-blackness: -10%;
 
   /* for using */
   --secondary-hover: color(var(--secondary)
@@ -50,8 +50,8 @@
   --tertiary-hover-blackness: +5%;
   --tertiary-focus-blackness: +10%;
 
-  --tertiary-constrast-hover-blackness: -5%;
-  --tertiary-constrast-focus-blackness: -10%;
+  --tertiary-contrast-hover-blackness: -5%;
+  --tertiary-contrast-focus-blackness: -10%;
 
   /* for using */
   --tertiary-hover: color(var(--tertiary)
@@ -70,8 +70,8 @@
   --quaternary-hover-blackness: +5%;
   --quaternary-focus-blackness: +10%;
 
-  --quaternary-constrast-hover-blackness: -5%;
-  --quaternary-constrast-focus-blackness: -10%;
+  --quaternary-contrast-hover-blackness: -5%;
+  --quaternary-contrast-focus-blackness: -10%;
 
   /* for using */
   --quaternary-hover: color(var(--quaternary)
@@ -90,8 +90,8 @@
   --quinary-hover-blackness: +5%;
   --quinary-focus-blackness: +10%;
 
-  --quinary-constrast-hover-blackness: -5%;
-  --quinary-constrast-focus-blackness: -10%;
+  --quinary-contrast-hover-blackness: -5%;
+  --quinary-contrast-focus-blackness: -10%;
 
   /* for using */
   --quinary-hover: color(var(--quinary)
@@ -110,8 +110,8 @@
   --graydark-hover-blackness: +5%;
   --graydark-focus-blackness: +10%;
 
-  --graydark-constrast-hover-blackness: -5%;
-  --graydark-constrast-focus-blackness: -10%;
+  --graydark-contrast-hover-blackness: -5%;
+  --graydark-contrast-focus-blackness: -10%;
 
   /* for using */
   --graydark-hover: color(var(--graydark)
@@ -130,8 +130,8 @@
   --graylight-hover-blackness: +5%;
   --graylight-focus-blackness: +10%;
 
-  --graylight-constrast-hover-blackness: -5%;
-  --graylight-constrast-focus-blackness: -10%;
+  --graylight-contrast-hover-blackness: -5%;
+  --graylight-contrast-focus-blackness: -10%;
 
   /* for using */
   --graylight-hover: color(var(--graylight)
@@ -150,8 +150,8 @@
   --blackwhite-hover-blackness: +5%;
   --blackwhite-focus-blackness: +10%;
 
-  --blackwhite-constrast-hover-blackness: -5%;
-  --blackwhite-constrast-focus-blackness: -10%;
+  --blackwhite-contrast-hover-blackness: -5%;
+  --blackwhite-contrast-focus-blackness: -10%;
 
   /* for using */
   --blackwhite-hover: color(var(--blackwhite)
