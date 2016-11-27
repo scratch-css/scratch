@@ -1,39 +1,98 @@
-/** Reponsive breakpoints */
+/**
+ * Reponsive breakpoints
+ *
+ * Responsive breakpoints for devices are referenced from
+ * this url: http://iosres.com/ and used only `logical
+ * resolutions` because of more usefullness.
+ */
 
 :root {
+  /* watches */
+  --watch: 136px;
+  --watch-big: 156px;
+
+  /* phones */
   --phone: 320px;
-  --phone-landscape: 480px;
+  --phone-y: 568px;
+  --phone-big: 414px;
+  --phone-big-y: 736px;
+
+  /* tablets */
   --tablet: 768px;
-  --tablet-landscape: 1024px;
-  --screen-small: 1225px;
-  --screen-medium: 1366px;
-  --screen-big: 1680px;
+  --tablet-y: 1024px;
+  --tablet-big: 1024px;
+  --tablet-big-y: 1366px;
+
+  /* screens */
+  /* tip: sometimes they are very close to tablets */
+  /* PS: we don't necessarily have to set vertical
+    resolution for screens */
+  --screen-tiny: 1225px;
+  --screen-small: 1366px;
+  --screen-medium: 1680px;
+  --screen-big: 1920px;
+  --screen-large: 2560px;
+
+  /* TVs */
+  /* tip: for TVs you must rethink configuring unit,
+    you may need to use `vw` and `vh` instead */
+  --tv-hd: 1366px;
+  --tv-hd-y: 768px;
+  --tv-fhd: 1920px;
+  --tv-fhd-y: 1080px;
+  --tv-wqhd: 2560px;
+  --tv-wqhd-y: 1440px;
+  --tv-4k: 3840px;
+  --tv-4k-y: 2160px;
+  --tv-8k: 7680px;
+  --tv-8k-y: 4320px;
 }
 
-@custom-media --bigger-than-phone (width >= 320px);
+@custom-media --bigger-than-watch (width >= 136px);
+@custom-media --smaller-than-watch (width < 136px);
 
+@custom-media --bigger-than-watch-big (width >= 156px);
+@custom-media --smaller-than-watch-big (width < 156px);
+
+@custom-media --bigger-than-phone (width >= 320px);
 @custom-media --smaller-than-phone (width < 320px);
 
-@custom-media --smaller-than-phone-landscape (width < 480px);
-
-@custom-media --bigger-than-phone-landscape (width >= 480px);
+@custom-media --smaller-than-phone-big (width < 480px);
+@custom-media --bigger-than-phone-big (width >= 480px);
 
 @custom-media --bigger-than-tablet (width >= 768px);
-
 @custom-media --smaller-than-tablet (width < 768px);
 
-@custom-media --smaller-than-tablet-landscape (width < 1024px);
+@custom-media --smaller-than-tablet-big (width < 1024px);
+@custom-media --bigger-than-tablet-big (width >= 1024px);
 
-@custom-media --bigger-than-tablet-landscape (width >= 1024px);
+@custom-media --bigger-than-screen-tiny (width >= 1225px);
+@custom-media --smaller-than-screen-tiny (width < 1225px);
 
-@custom-media --bigger-than-screen-small (width >= 1225px);
+@custom-media --bigger-than-screen-small (width >= 1366px);
+@custom-media --smaller-than-screen-small (width < 1366px);
 
-@custom-media --smaller-than-screen-small (width < 1225px);
+@custom-media --bigger-than-screen-medium (width >= 1680px);
+@custom-media --smaller-than-screen-medium (width < 1680px);
 
-@custom-media --bigger-than-screen-medium (width >= 1366px);
+@custom-media --bigger-than-screen-big (width >= 1920px);
+@custom-media --smaller-than-screen-big (width < 1920px);
 
-@custom-media --smaller-than-screen-medium (width < 1366px);
+@custom-media --bigger-than-screen-large (width >= 2560px);
+@custom-media --smaller-than-screen-large (width < 2560px);
 
-@custom-media --bigger-than-screen-big (width >= 1680px);
+/* TVs */
+@custom-media --bigger-than-tv-hd (width >= 1366px);
+@custom-media --smaller-than-tv-hd (width < 1366px);
 
-@custom-media --smaller-than-screen-big (width < 1680px);
+@custom-media --bigger-than-tv-fhd (width >= 1920px);
+@custom-media --smaller-than-tv-fhd (width < 1920px);
+
+@custom-media --bigger-than-tv-wqhd (width >= 2560px);
+@custom-media --smaller-than-tv-wqhd (width < 2560px);
+
+@custom-media --bigger-than-tv-4k (width >= 3840px);
+@custom-media --smaller-than-tv-4k (width < 3840px);
+
+@custom-media --bigger-than-tv-8k (width >= 7680px);
+@custom-media --smaller-than-tv-8k (width < 7680px);
