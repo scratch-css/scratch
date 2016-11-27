@@ -1,11 +1,12 @@
 /**
+ * Sequences
+ * ----------------------------------------------
  * Given sequences below represent Golden Ratio like
  * symetries for web layout and typography sets.
  * The default and main sequence can be the Golden Ratio
  * formula (aka phi - 1.618). The list is taken from
  * http://type-scale.com/
  */
-
 :root {
   --minor-second: 1.067;
   --major-second: 1.125;

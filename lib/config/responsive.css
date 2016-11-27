@@ -1,15 +1,16 @@
 /**
  * Reponsive breakpoints
- *
+ * ----------------------------------------------
  * Responsive breakpoints for devices are referenced from
  * this url: http://iosres.com/ and used only `logical
  * resolutions` because of more usefullness.
  */
-
 :root {
   /* watches */
   --watch: 136px;
+  --watch-y: 170px;
   --watch-big: 156px;
+  --watch-big-y: 195px;
 
   /* phones */
   --phone: 320px;
@@ -48,24 +49,32 @@
   --tv-8k-y: 4320px;
 }
 
+/* we can't use variables from top in `postcss-cssnext`
+  to declare `@custom-media`. that's why we can't reuse
+  them. */
+
+/* watches */
 @custom-media --bigger-than-watch (width >= 136px);
 @custom-media --smaller-than-watch (width < 136px);
 
 @custom-media --bigger-than-watch-big (width >= 156px);
 @custom-media --smaller-than-watch-big (width < 156px);
 
+/* phones */
 @custom-media --bigger-than-phone (width >= 320px);
 @custom-media --smaller-than-phone (width < 320px);
 
 @custom-media --smaller-than-phone-big (width < 480px);
 @custom-media --bigger-than-phone-big (width >= 480px);
 
+/* tablets */
 @custom-media --bigger-than-tablet (width >= 768px);
 @custom-media --smaller-than-tablet (width < 768px);
 
 @custom-media --smaller-than-tablet-big (width < 1024px);
 @custom-media --bigger-than-tablet-big (width >= 1024px);
 
+/* screens */
 @custom-media --bigger-than-screen-tiny (width >= 1225px);
 @custom-media --smaller-than-screen-tiny (width < 1225px);
 
