@@ -1,10 +1,7 @@
-@import "./colors.css";
+@import "./colors/index.css";
+@import "./typography/index.css";
 @import "./document.css";
-@import "./font.css";
 @import "./gutter.css";
-@import "./headings.css";
-@import "./link.css";
-@import "./paragraph.css";
 @import "./responsive.css";
 @import "./sequence.css";
 @import "./transition.css";

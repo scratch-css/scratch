@@ -1,7 +1,0 @@
-/** Paragraph */
-
-:root {
-  --paragraph-line-height: 1.5;
-  --paragraph-margin: 1var(--unit) 0 .5var(--unit);
-  --paragraph-family: var(--font-family-sans-serif);
-}

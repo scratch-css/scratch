@@ -1,0 +1,23 @@
+/**
+ * State colors
+ * ----------------------------------------------
+ * State colors are used to show form validation,
+ * notification and other states user may needs to see.
+ */
+:root {
+  /* success dialog colors */
+  --success: var(--green);
+  --success-contrast: white;
+
+  /* info dialog colors */
+  --info: var(--blue);
+  --info-contrast: white;
+
+  /* warning dialog colors */
+  --warning: var(--yellow);
+  --warning-contrast: black;
+
+  /* error dialog colors */
+  --error: var(--red);
+  --error-contrast: white;
+}

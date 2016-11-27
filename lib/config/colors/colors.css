@@ -1,0 +1,40 @@
+/**
+ * Color variables
+ * ----------------------------------------------
+ * These variables are often defined depend on
+ * Brand Book of the company. For using them as
+ * an example, here is given hand picked color
+ * scheme, which can be useful.
+ */
+:root {
+  /* brand blue */
+  --blue: #3e92e2;
+
+  /* brand yellow */
+  --yellow: #faeb00;
+
+  /* brand red */
+  --red: #ff0649;
+
+  /* brand lilac */
+  --lilac: #c187c3;
+
+  /* brand green */
+  --green: #00ba88;
+
+  /* brand pink */
+  --pink: #ff63a8;
+
+  /* brand orange */
+  --orange: #ffaa15;
+
+
+  /* brand grayscale */
+  --blackgray: #1b1d1f;
+  --darkgray: #272833;
+  --softgray: #52575f;
+  --midgray: #838994;
+  --coldgray: #babdc3;
+  --lightgray: #dee0e3;
+  --whitegray: #f9fafa;
+}

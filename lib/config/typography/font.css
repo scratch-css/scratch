@@ -1,12 +1,21 @@
-/** Typography */
-
+/**
+ * Font
+ * ----------------------------------------------
+ * Font configuration gives you opportunity to make different families
+ * and use them instead of hardcode anywhere. You can also configure
+ * base typography sequence and headings, if they don't have overwriting
+ * configuration.
+ */
 :root {
+  /* families */
   --font-serif: 'Times New Roman';
   --font-sans-serif: "Source Sans Pro";
   --font-monospace: 'Courier New';
   --font-family-serif: var(--font-serif), Times, serif;
   --font-family-sans-serif: var(--font-sans-serif), -apple-system, Helvetica, Arial, sans-serif;
   --font-family-monospace: 'Courier New', Courier, monospace;
+
+  /* weight */
   --font-slim: 200;
   --font-light: 300;
   --font-regular: 400;

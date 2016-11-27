@@ -1,0 +1,167 @@
+/**
+ * Brand state colors
+ * ----------------------------------------------
+ * Brand state colors define how brand colors act on `:hover`
+ * and `:active` states.
+ */
+:root {
+  /* start: primary theme */
+  /* for configuring */
+  --primary-hover-blackness: +5%;
+  --primary-focus-blackness: +10%;
+
+  --primary-constrast-hover-blackness: -5%;
+  --primary-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --primary-hover: color(var(--primary)
+    blackness(var(--primary-hover-blackness)));
+  --primary-focus: color(var(--primary)
+    blackness(var(--primary-focus-blackness)));
+
+  --primary-contrast-hover: color(var(--primary-contrast)
+    blackness(var(--primary-contrast-hover-blackness)));
+  --primary-contrast-focus: color(var(--primary-contrast)
+    blackness(var(--primary-contrast-focus-blackness)));
+  /* end: primary theme */
+
+  /* start: secondary theme */
+  /* for configuring */
+  --secondary-hover-blackness: +5%;
+  --secondary-focus-blackness: +10%;
+
+  --secondary-constrast-hover-blackness: -5%;
+  --secondary-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --secondary-hover: color(var(--secondary)
+    blackness(var(--secondary-hover-blackness)));
+  --secondary-focus: color(var(--secondary)
+    blackness(var(--secondary-focus-blackness)));
+
+  --secondary-contrast-hover: color(var(--secondary-contrast)
+    blackness(var(--secondary-contrast-hover-blackness)));
+  --secondary-contrast-focus: color(var(--secondary-contrast)
+    blackness(var(--secondary-contrast-focus-blackness)));
+  /* end: secondary theme */
+
+  /* start: tertiary theme */
+  /* for configuring */
+  --tertiary-hover-blackness: +5%;
+  --tertiary-focus-blackness: +10%;
+
+  --tertiary-constrast-hover-blackness: -5%;
+  --tertiary-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --tertiary-hover: color(var(--tertiary)
+    blackness(var(--tertiary-hover-blackness)));
+  --tertiary-focus: color(var(--tertiary)
+    blackness(var(--tertiary-focus-blackness)));
+
+  --tertiary-contrast-hover: color(var(--tertiary-contrast)
+    blackness(var(--tertiary-contrast-hover-blackness)));
+  --tertiary-contrast-focus: color(var(--tertiary-contrast)
+    blackness(var(--tertiary-contrast-focus-blackness)));
+  /* end: tertiary theme */
+
+  /* start: quaternary theme */
+  /* for configuring */
+  --quaternary-hover-blackness: +5%;
+  --quaternary-focus-blackness: +10%;
+
+  --quaternary-constrast-hover-blackness: -5%;
+  --quaternary-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --quaternary-hover: color(var(--quaternary)
+    blackness(var(--quaternary-hover-blackness)));
+  --quaternary-focus: color(var(--quaternary)
+    blackness(var(--quaternary-focus-blackness)));
+
+  --quaternary-contrast-hover: color(var(--quaternary-contrast)
+    blackness(var(--quaternary-contrast-hover-blackness)));
+  --quaternary-contrast-focus: color(var(--quaternary-contrast)
+    blackness(var(--quaternary-contrast-focus-blackness)));
+  /* end: quaternary theme */
+
+  /* start: quinary theme */
+  /* for configuring */
+  --quinary-hover-blackness: +5%;
+  --quinary-focus-blackness: +10%;
+
+  --quinary-constrast-hover-blackness: -5%;
+  --quinary-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --quinary-hover: color(var(--quinary)
+    blackness(var(--quinary-hover-blackness)));
+  --quinary-focus: color(var(--quinary)
+    blackness(var(--quinary-focus-blackness)));
+
+  --quinary-contrast-hover: color(var(--quinary-contrast)
+    blackness(var(--quinary-contrast-hover-blackness)));
+  --quinary-contrast-focus: color(var(--quinary-contrast)
+    blackness(var(--quinary-contrast-focus-blackness)));
+  /* end: quinary theme */
+
+  /* start: grayscale dark theme */
+  /* for configuring */
+  --graydark-hover-blackness: +5%;
+  --graydark-focus-blackness: +10%;
+
+  --graydark-constrast-hover-blackness: -5%;
+  --graydark-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --graydark-hover: color(var(--graydark)
+    blackness(var(--graydark-hover-blackness)));
+  --graydark-focus: color(var(--graydark)
+    blackness(var(--graydark-focus-blackness)));
+
+  --graydark-contrast-hover: color(var(--graydark-contrast)
+    blackness(var(--graydark-contrast-hover-blackness)));
+  --graydark-contrast-focus: color(var(--graydark-contrast)
+    blackness(var(--graydark-contrast-focus-blackness)));
+  /* end: grayscale dark theme */
+
+  /* start: grayscale light theme */
+  /* for configuring */
+  --graylight-hover-blackness: +5%;
+  --graylight-focus-blackness: +10%;
+
+  --graylight-constrast-hover-blackness: -5%;
+  --graylight-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --graylight-hover: color(var(--graylight)
+    blackness(var(--graylight-hover-blackness)));
+  --graylight-focus: color(var(--graylight)
+    blackness(var(--graylight-focus-blackness)));
+
+  --graylight-contrast-hover: color(var(--graylight-contrast)
+    blackness(var(--graylight-contrast-hover-blackness)));
+  --graylight-contrast-focus: color(var(--graylight-contrast)
+    blackness(var(--graylight-contrast-focus-blackness)));
+  /* end: grayscale light theme */
+
+  /* start: black and white light theme */
+  /* for configuring */
+  --blackwhite-hover-blackness: +5%;
+  --blackwhite-focus-blackness: +10%;
+
+  --blackwhite-constrast-hover-blackness: -5%;
+  --blackwhite-constrast-focus-blackness: -10%;
+
+  /* for using */
+  --blackwhite-hover: color(var(--blackwhite)
+    blackness(var(--blackwhite-hover-blackness)));
+  --blackwhite-focus: color(var(--blackwhite)
+    blackness(var(--blackwhite-focus-blackness)));
+
+  --blackwhite-contrast-hover: color(var(--blackwhite-contrast)
+    blackness(var(--blackwhite-contrast-hover-blackness)));
+  --blackwhite-contrast-focus: color(var(--blackwhite-contrast)
+    blackness(var(--blackwhite-contrast-focus-blackness)));
+  /* end: black and white light theme */
+}

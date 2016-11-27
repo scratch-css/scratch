@@ -1,0 +1,29 @@
+/**
+ * Social network colors
+ * ----------------------------------------------
+ * Social network colors are referenced from this url:
+ * http://designpieces.com/2012/12/social-media-colours-hex-and-rgb/
+ * but you can always change them.
+ */
+:root {
+  --twitter: #55acee;
+  --twitter-contrast: white;
+
+  --facebook: #3a5798;
+  --facebook-contrast: white;
+
+  --youtube: #fb0000;
+  --youtube-contrast: white;
+
+  --google: #d74924;
+  --google-contrast: white;
+
+  --vimeo: #5cc6ff;
+  --vimeo-contrast: white;
+
+  --rss: #f6aa30;
+  --rss-contrast: white;
+
+  --pinterest: #cd1b1f;
+  --pinterest-contrast: white;
+}

@@ -1,0 +1,20 @@
+/**
+ * Link
+ * ----------------------------------------------
+ * Link configuration gives you API to manage how default links or
+ * anchors will act, by managing it's state colors and weights.
+ */
+:root {
+  /* base configuration is inherited from "./font.css" configuration */
+  --a-decoration: none;
+  --a-family: var(--font-family-sans-serif);
+  --a-weight: inherit;
+  --a-line-height: inherit;
+
+  /* interactivity */
+  --a-color: var(--primary);
+  --a-hover-color: var(--primary-hover);
+  --a-hover-decoration: underline;
+  --a-focus-color: var(--primary-focus);
+  --a-focus-decoration: underline;
+}

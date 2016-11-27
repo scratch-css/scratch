@@ -1,0 +1,46 @@
+/**
+ * Brand colors
+ * ----------------------------------------------
+ * Brand colors define 5 brand dominant colors and it's contrast
+ * colors. Contrast colors mean it's opposite one defined by
+ * designer. For example blue on white, or yellow on black and so on.
+ * They also define 3 more non-dominant grayscale colors.
+ * Using them in your css files are only recomended when you're sure
+ * choosen one is constant for any expected brand style changes or
+ * the design is in black gray and white colors.
+ * Using dominant colors are recomended for brand colors usage for
+ * better naming.
+ */
+:root {
+  /* primary theme */
+  --primary: var(--green);
+  --primary-contrast: white;
+
+  /* secondary theme */
+  --secondary: var(--blue);
+  --secondary-contrast: white;
+
+  /* tertiary theme */
+  --tertiary: var(--red);
+  --tertiary-contrast: white;
+
+  /* quaternary theme */
+  --quaternary: var(--orange);
+  --quaternary-contrast: white;
+
+  /* quinary theme */
+  --quinary: var(--pink);
+  --quinary-contrast: white;
+
+  /* grayscale dark theme */
+  --graydark: var(--darkgray);
+  --graydark-contrast: var(--midgray);
+
+  /* grayscale light theme */
+  --graylight: var(--midgray);
+  --graylight-contrast: var(--whitegray);
+
+  /* black and white theme */
+  --blackwhite: var(--darkgray);
+  --blackwhite-contrast: white;
+}

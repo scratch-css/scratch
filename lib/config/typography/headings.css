@@ -1,5 +1,10 @@
-/** Headings */
-
+/**
+ * Headings
+ * ----------------------------------------------
+ * Headings are used to define HTML headers and also it's useful
+ * for developers to define and configure typography set by
+ * golden ratio or other natural sequences.
+ */
 :root {
   --heading-family: var(--font-family-sans-serif);
   --heading-weight: var(--document-font-weight);
