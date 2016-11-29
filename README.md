@@ -1,5 +1,21 @@
 # Scratch framework
-Scratch is the CSS framework and methodology to build powerful web, mobile and TV applications with one codebase. It has powerful API which covers all sections app may need to use CSS, including colors, unit management, layout and typography sets, and responsive layout. This is a basic setting and methodology which makes your CSS clean and easy. Just follow it.
+Scratch is CSS framework and methodology to build web, mobile and TV applications with one code base. We have micro modular architecture, so you choose what you want to take. Using it means to follow some good practices, make everything configurable and easy to change. We have some tasty built-in features as well as some additional modules you may also want to use.
+
+By default, you can manage: 
+ * Colors
+ * Units
+ * Responsive layout
+ * Typography set
+ * Gutters (or gaps)
+ * Writing directions
+ * Reset
+
+Based on Scratch, I made some more libraries, so you can also have:
+ * [Grid system](https://github.com/scratch-css/grid) - two types of grid system.
+ * [UI kit](https://github.com/scratch-css/ui) - rich library of UI components.
+ * [Helpers](https://github.com/scratch-css/helpers) - helper classes to use inline in HTML.
+
+You have them separated on `npm`, or you can use them [all together](https://github.com/scratch-css/all).
 
 --
 
@@ -17,17 +33,17 @@ To run, you can use:
 --
 
 ### Visualization
-Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, I will also provide UI components on top of it in [this repository](https://github.com/scratch-css/ui). So, you will can install them via npm.
+Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, as I mentioned above, we also have UI components library on top of Scratch. It is available in [this repository](https://github.com/scratch-css/ui). You can install it via npm.
 
 --
 
 ### Preprocessors
-Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that this is the best setting to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
+ Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe that, this is the best environment to write efficient, performant and pure CSS with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
 --
 
 ### History
-Scratch has a little history. It slowly begun to be developed back in 2014. [The first version](https://github.com/nikoloza/scratch) of it was written on LESS. It had mostly UI components, also with different approaches of some techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system and colors scheme. Then I slowly cleaned from unnesessary things and now it has became very lightweight framework which gives a basic guidance of the methodology.
+ Scratch has a little history. It slowly begun to be developed back in 2012. It was documented on Georgian language and looked like [this](https://www.facebook.com/Radius.LLC/photos/a.293699317317685.70946.290079811012969/299426610078289/?type=3&theater). [The first version](https://github.com/nikoloza/scratch) on Github was written on LESS. [The first version](https://github.com/nikoloza/scratch) had built-in UI components, helpers and layout techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system. Then, I cleaned it up from unnecessary things and decided to divide it by purposes of use. Now, it has became very lightweight and modular framework.
 
 --
 
@@ -39,9 +55,9 @@ Scratch has a little history. It slowly begun to be developed back in 2014. [The
 --
 
 ### License
-Scratch is [MIT licensed](LICENSE).
+ Scratch is [MIT licensed](LICENSE).
 
 --
 
 ### Contribution
-Please read intructions at [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/).
+ Please read intructions at [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/).
