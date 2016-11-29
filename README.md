@@ -23,9 +23,6 @@ We also have other libraries to enhance its possibilities:
 
 They are based on Scratch, and are great examples of using it. You have all separated on `npm`, or you can use them [all together](https://github.com/scratch-css/all). 
 
-You can read more in [Modules](modules.html) page.
-
-
 --
 
 ### Setup 
