@@ -4,7 +4,7 @@
 By default, you can manage: 
  * Colors
  * Units
- * Responsive layout
+ * Responsive breakpoints
  * Typography set
  * Gutters (or gaps)
  * Writing directions
