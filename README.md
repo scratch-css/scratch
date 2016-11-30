@@ -14,7 +14,7 @@ Scratch provides management system for these fields:
 - Writing directions
 - Reset
 
-We also have other libraries to enhance its possibilities:
+We also have other libraries as modules to enhance its possibilities:
 
 - [Grid system](https://github.com/scratch-css/grid) - two types of grid system.
 - [UI kit](https://github.com/scratch-css/ui) - rich library of UI components.
