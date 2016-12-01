@@ -4,6 +4,23 @@
   --transition-duration: .3s;
   --transition-sequence: var(--golden-ratio);
 
-  --transition-duration-short: calc(var(--transition-duration) / var(--transition-sequence));
-  --transition-duration-long: calc(var(--transition-duration) * var(--transition-sequence));
+  --transition-duration-shorter: calc(
+    var(--transition-duration-short) /
+    var(--transition-sequence)
+  );
+
+  --transition-duration-short: calc(
+    var(--transition-duration) /
+    var(--transition-sequence)
+  );
+
+  --transition-duration-long: calc(
+    var(--transition-duration) *
+    var(--transition-sequence)
+  );
+
+  --transition-duration-longer: calc(
+    var(--transition-duration-long) *
+    var(--transition-sequence)
+  );
 }
