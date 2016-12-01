@@ -4,6 +4,8 @@
   --transition-duration: .3s;
   --transition-sequence: var(--golden-ratio);
 
+  --transition-timing-function: ease;
+
   --transition-duration-shorter: calc(
     var(--transition-duration-short) /
     var(--transition-sequence)
