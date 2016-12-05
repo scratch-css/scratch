@@ -7,7 +7,7 @@
 :root {
   /* base configuration is inherited from "./font.css" configuration */
   --a-decoration: none;
-  --a-family: var(--font-family-sans-serif);
+  --a-family: var(--font-family-sans-serif-primary);
   --a-weight: inherit;
   --a-line-height: inherit;
 

@@ -7,15 +7,25 @@
  * configuration.
  */
 :root {
-  /* families */
-  --font-serif: 'Times New Roman';
-  --font-sans-serif: "Source Sans Pro";
-  --font-monospace: 'Courier New';
-  --font-family-serif: var(--font-serif), Times, serif;
-  --font-family-sans-serif: var(--font-sans-serif), -apple-system, Helvetica, Arial, sans-serif;
+  /* Serif font */
+  --font-serif-primary: 'Times New Roman';
+  --font-family-serif-primary: var(--font-serif-primary), var(--font-serif-secondary), Times, serif;
+
+  --font-serif-secondary: 'Garamond';
+  --font-family-serif-primary: var(--font-serif-secondary), var(--font-serif-primary), Times, serif;
+
+  /* Sans serif font */
+  --font-sans-serif-primary: 'Source Sans Pro';
+  --font-family-sans-serif-primary: var(--font-sans-serif-primary), var(--font-sans-serif-secondary), -apple-system, Helvetica, Arial, sans-serif;
+
+  --font-sans-serif-secondary: 'Lato';
+  --font-family-sans-serif-secondary: var(--font-sans-serif-secondary), var(--font-sans-serif-primary), -apple-system, Helvetica, Arial, sans-serif;
+
+  /* Monospace font */
+  --font-monospace-primary: 'Courier New';
   --font-family-monospace: 'Courier New', Courier, monospace;
 
-  /* weight */
+  /* Weight */
   --font-slim: 200;
   --font-light: 300;
   --font-regular: 400;
@@ -23,7 +33,7 @@
   --font-bold: 700;
   --font-extrabold: 900;
 
-  /** sequence */
+  /* Sequence */
   --font-unit: var(--unit);
   --font-median: 1.4;
   --font-base: var(--font-median)var(--font-unit);
