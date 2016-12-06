@@ -6,7 +6,7 @@
  * golden ratio or other natural sequences.
  */
 :root {
-  --heading-family: var(--font-family-sans-serif-primary);
+  --heading-family: var(--font-family-primary);
   --heading-weight: var(--document-font-weight);
   --heading-line-height: 1.2;
   --heading-margin: .3em 0 .1em;

@@ -21,6 +21,12 @@
   --font-sans-serif-secondary: 'Lato';
   --font-family-sans-serif-secondary: var(--font-sans-serif-secondary), var(--font-sans-serif-primary), -apple-system, Helvetica, Arial, sans-serif;
 
+  /* General font priorities */
+  --font-family-primary: var(--font-family-sans-serif-primary);
+  --font-family-secondary: var(--font-family-sans-serif-secondary);
+  --font-family-tertiary: var(--font-family-serif-primary);
+  --font-family-quaternary: var(--font-family-serif-secondary);
+
   /* Monospace font */
   --font-monospace-primary: 'Courier New';
   --font-family-monospace: 'Courier New', Courier, monospace;
