@@ -1,0 +1,14 @@
+/**
+ * Font weight
+ * ----------------------------------------------
+ * Font weight configuration gives possibility to fill missing
+ * font weight by another one if it's not presented.
+ */
+:root {
+  --font-slim: 200;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-semibold: 500;
+  --font-bold: 700;
+  --font-extrabold: 900;
+}
