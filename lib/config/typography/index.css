@@ -1,4 +1,6 @@
+@import './families.css';
 @import './font.css';
 @import './headings.css';
 @import './link.css';
 @import './paragraph.css';
+@import './weight.css';
