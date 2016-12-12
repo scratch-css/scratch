@@ -27,4 +27,15 @@
   --h8: calc(var(--h7) / var(--heading-sequence));
   --h9: calc(var(--h8) / var(--heading-sequence));
   --h10: calc(var(--h9) / var(--heading-sequence));
+
+  --h11: calc(var(--h0) * var(--heading-sequence));
+  --h12: calc(var(--h11) * var(--heading-sequence));
+  --h13: calc(var(--h12) * var(--heading-sequence));
+  --h14: calc(var(--h13) * var(--heading-sequence));
+  --h15: calc(var(--h14) * var(--heading-sequence));
+  --h16: calc(var(--h15) * var(--heading-sequence));
+  --h17: calc(var(--h16) * var(--heading-sequence));
+  --h18: calc(var(--h17) * var(--heading-sequence));
+  --h19: calc(var(--h18) * var(--heading-sequence));
+  --h20: calc(var(--h19) * var(--heading-sequence));
 }
