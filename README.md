@@ -6,8 +6,6 @@ Scratch is CSS framework and methodology to build web, mobile and TV application
 [![npm (scoped)](https://img.shields.io/npm/v/@nikoloza/scratch.svg)](https://www.npmjs.com/package/@nikoloza/scratch)
 [![David](https://img.shields.io/david/scratch-css/scratch.svg)](https://www.npmjs.com/package/@nikoloza/scratch)
 
-Scratch itself has 0kb footprint.
-
 --
 
 Scratch provides management system for these fields:
