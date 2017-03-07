@@ -44,7 +44,6 @@ h6 {
   line-height: var(--heading-line-height);
   font-family: var(--heading-family);
   font-weight: var(--heading-weight);
-  /* color: var(--heading-weight); */
 }
 
 h1 {
