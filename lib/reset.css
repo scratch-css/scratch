@@ -18,7 +18,7 @@ html {
 }
 
 body {
-  padding: .01rem 0 0;
+  padding: var(--document-padding);
   margin: 0;
   line-height: var(--document-line-height);
   border: 0;
@@ -217,7 +217,9 @@ svg:not(:root) {
 
 hr {
   border: 0;
-  margin: var(--gutter) 0;
+  border-top: 1px var(--hr-color, currentColor) solid;
+  opacity: var(--hr-opacity, .1);
+  margin: var(--hr-margin, var(--gutter-big) 0);
 }
 
 figure {

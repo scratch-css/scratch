@@ -31,10 +31,12 @@
 
   /* brand grayscale */
   --blackgray: #1b1d1f;
+  --darkergray: #1f2029;
   --darkgray: #272833;
   --softgray: #52575f;
   --midgray: #838994;
   --coldgray: #babdc3;
   --lightgray: #dee0e3;
-  --whitegray: #eee;
+  --lightengray: #e9ecef;
+  --whitegray: #f3f5f7;
 }

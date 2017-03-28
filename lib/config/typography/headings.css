@@ -4,12 +4,15 @@
  * Headings are used to define HTML headers and also it's useful
  * for developers to define and configure typography set by
  * golden ratio or other natural sequences.
+ * there are two formulas:
+ * y = var(--heading-base) + var(--heading-sequence) ^ x
+ * y = var(--heading-base) * var(--heading-base) * var(--heading-sequence) * x
  */
 :root {
   --heading-family: var(--font-family-primary);
   --heading-weight: var(--document-font-weight);
   --heading-line-height: 1.2;
-  --heading-margin: .3em 0 .1em;
+  --heading-margin: .4em 0 .2em;
 
   --heading-unit: var(--font-unit);
   --heading-sequence: var(--font-sequence);
@@ -27,15 +30,4 @@
   --h8: calc(var(--h7) / var(--heading-sequence));
   --h9: calc(var(--h8) / var(--heading-sequence));
   --h10: calc(var(--h9) / var(--heading-sequence));
-
-  --h11: calc(var(--h0) * var(--heading-sequence));
-  --h12: calc(var(--h11) * var(--heading-sequence));
-  --h13: calc(var(--h12) * var(--heading-sequence));
-  --h14: calc(var(--h13) * var(--heading-sequence));
-  --h15: calc(var(--h14) * var(--heading-sequence));
-  --h16: calc(var(--h15) * var(--heading-sequence));
-  --h17: calc(var(--h16) * var(--heading-sequence));
-  --h18: calc(var(--h17) * var(--heading-sequence));
-  --h19: calc(var(--h18) * var(--heading-sequence));
-  --h20: calc(var(--h19) * var(--heading-sequence));
 }

@@ -25,43 +25,43 @@ We also have other libraries as modules to enhance its possibilities:
 - [Helpers](https://github.com/scratch-css/helpers) - helper classes to use inline in HTML.
 - [Animations](https://github.com/scratch-css/animations) - CSS animations and transitions.
 
-They are based on Scratch, and are great examples of using it. You have all separated on `npm`, or you can use them [all together](https://github.com/scratch-css/all). 
+They are based on Scratch, and are great examples of using it. You have all separated on `npm`, or you can use them [all together](https://github.com/scratch-css/all).
 
 --
 
-### Setup 
+### Setup
 
 To add Scratch in your `npm` dependencies list, run:
 
     npm install @scratch-css/scratch --save
 
 You need to import it in your CSS file afterwards:
-  
+
     @import '@scratch-css/scratch';
-    
+
 Or, import from `node_modules` path:
 
-    @import './node_modules/@scratch-css/scratch/index.css';
+    @import '@scratch-css/scratch/index.css';
 
 Try to add this snippet in your CSS just to check if it works:
 
     body { background-color: var(--success) !important; }
-    
+
 Background must be green, [is not it](https://github.com/scratch-css/scratch/issues)?
 
 --
 
-### Visualization 
+### Visualization
 Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, as I mentioned above, we also have UI components library on top of Scratch. It is available in [this repository](https://github.com/scratch-css/ui). You can install it via npm.
 
 --
 
-### Preprocessors 
+### Preprocessors
 Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe this is the best environment to write efficient, performant and pure CSS, with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
 --
 
-### History 
+### History
 Scratch has a little history. It slowly begun to be developed back in 2011. It was documented on Georgian language and looked like [this](https://www.facebook.com/Radius.LLC/photos/a.293699317317685.70946.290079811012969/299426610078289/?type=3&theater). [The first version](https://github.com/nikoloza/scratch) on Github was written on LESS. It had built-in UI components, helpers and layout techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system. Then, I cleaned it up from unnecessary things and decided to divide it by domains. Now, it has became very lightweight and modular framework.
 
 
