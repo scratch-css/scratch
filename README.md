@@ -20,6 +20,7 @@ Scratch provides management system for these fields:
 
 We also have other libraries as modules to enhance its possibilities:
 
+- [Reset](https://github.com/scratch-css/reset) - CSS reset for Scratch apps.
 - [Grid system](https://github.com/scratch-css/grid) - two types of grid system.
 - [UI kit](https://github.com/scratch-css/ui) - rich library of UI components.
 - [Helpers](https://github.com/scratch-css/helpers) - helper classes to use inline in HTML.
