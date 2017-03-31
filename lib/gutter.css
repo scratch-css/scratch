@@ -1,8 +1,11 @@
 /** Gutters */
 
 :root {
-  --gutter-sequence: var(--golden-ratio);
+  /* unit */
   --gutter-unit: var(--unit);
+
+  /* sequence */
+  --gutter-sequence: var(--golden-ratio);
   --gutter-base: 1.5;
 
   --gutter: var(--gutter-base)var(--gutter-unit);

@@ -1,10 +1,10 @@
 /** Transition duration */
 :root {
-  --transition-duration: .3s;
+  --transition-duration-base: 300;
   --transition-sequence: var(--golden-ratio);
-
   --transition-timing-function: ease;
 
+  --transition-duration: var(--transition-duration-base)var(--timing-unit);
   --transition-duration-shorter: calc(
     var(--transition-duration-short) /
     var(--transition-sequence)
@@ -28,7 +28,8 @@
 
 /** Transition delay */
 :root {
-  --transition-delay: .1s;
+  --transition-delay-base: 100;
+  --transition-delay: var(--transition-delat-base)var(--timing-unit);
   --transition-delay-sequence: var(--major-third);
 
   --transition-timing-function: ease;

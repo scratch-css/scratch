@@ -2,4 +2,5 @@
 
 :root {
   --unit: rem;
+  --timing-unit: ms;
 }
