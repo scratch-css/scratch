@@ -1,4 +1,4 @@
-# Scratch framework
+# Φ Scratch framework
 
 Scratch is CSS framework and methodology to build web, mobile and TV applications with one code base. We have micro modular architecture, so you choose what you really want to take. Using it means to follow some good practices, make everything configurable and easy to change. We have some built-in features as well as some additional modules you may also want to use.
 
@@ -30,7 +30,7 @@ They are based on Scratch, and are great examples of using it. You have all sepa
 
 --
 
-### ▽ Setup
+### Setup
 
 To add Scratch in your `npm` dependencies list, run:
 
@@ -52,35 +52,35 @@ Background must be green, [is not it](https://github.com/scratch-css/scratch/iss
 
 --
 
-### ▽ Visualization
+### Visualization
 Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, as I mentioned above, we also have UI components library on top of Scratch. It is available in [this repository](https://github.com/scratch-css/ui). You can install it via npm.
 
 --
 
-### ▽ Preprocessors
+### Preprocessors
 Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe this is the best environment to write efficient, performant and pure CSS, with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
 --
 
-### ▽ History
+### History
 Scratch has a little history. It slowly begun to be developed back in 2011. It was documented on Georgian language and looked like [this](https://www.facebook.com/Radius.LLC/photos/a.293699317317685.70946.290079811012969/299426610078289/?type=3&theater). [The first version](https://github.com/nikoloza/scratch) on Github was written on LESS. It had built-in UI components, helpers and layout techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system. Then, I cleaned it up from unnecessary things and decided to divide it by domains. Now, it has became very lightweight and modular framework.
 
 
 --
 
-### ▽ Author(s)
+### Author(s)
 - [nikoloza](https://github.com/nikoloza) - Creator of Scratch.
 - [vigour-io](https://github.com/vigour-io) - Significant improvements and cool ideas have came while working at Vigour.
 - You can also become supporter by [contributing](#contribution), [creating an issue](https://github.com/scratch-css/scratch/issues) for any new idea or just [being a stargazer](https://github.com/scratch-css/scratch/stargazers).
 
 --
 
-### ▽ License
+### License
 Scratch is [MIT licensed](LICENSE).
 
 --
 
-### ▽ Contribution
+### Contribution
 To run a project, you probably need [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/cli/install) installed.
 
 To install dependencies you need to run:
