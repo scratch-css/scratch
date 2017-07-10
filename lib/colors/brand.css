@@ -15,32 +15,40 @@
   /* primary theme */
   --primary: var(--green);
   --primary-contrast: white;
+  --primary-border: white;
 
   /* secondary theme */
   --secondary: var(--blue);
   --secondary-contrast: white;
+  --secondary-border: white;
 
   /* tertiary theme */
   --tertiary: var(--red);
   --tertiary-contrast: white;
+  --tertiary-border: white;
 
   /* quaternary theme */
   --quaternary: var(--orange);
   --quaternary-contrast: white;
+  --quaternary-border: white;
 
   /* quinary theme */
   --quinary: var(--pink);
   --quinary-contrast: white;
+  --quinary-border: white;
 
   /* grayscale dark theme */
   --graydark: var(--darkgray);
   --graydark-contrast: var(--midgray);
+  --graydark-border: var(--midgray);
 
   /* grayscale light theme */
   --graylight: var(--midgray);
   --graylight-contrast: var(--whitegray);
+  --graylight-border: var(--whitegray);
 
   /* black and white theme */
   --blackwhite: var(--darkgray);
   --blackwhite-contrast: white;
+  --blackwhite-border: white;
 }

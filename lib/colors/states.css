@@ -8,16 +8,20 @@
   /* success dialog colors */
   --success: var(--green);
   --success-contrast: white;
+  --success-border: var(--green);
 
   /* info dialog colors */
   --info: var(--blue);
   --info-contrast: white;
+  --info-border: var(--blue);
 
   /* warning dialog colors */
   --warning: var(--yellow);
   --warning-contrast: black;
+  --warning-border: var(--yellow);
 
   /* error dialog colors */
   --error: var(--red);
   --error-contrast: white;
+  --error-border: white;
 }

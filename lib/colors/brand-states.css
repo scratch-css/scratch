@@ -13,6 +13,9 @@
   --primary-contrast-hover-blackness: -5%;
   --primary-contrast-focus-blackness: -10%;
 
+  --primary-border-hover-blackness: +5%;
+  --primary-border-focus-blackness: +10%;
+
   /* for using */
   --primary-hover: color(var(--primary)
     blackness(var(--primary-hover-blackness)));
@@ -23,6 +26,11 @@
     blackness(var(--primary-contrast-hover-blackness)));
   --primary-contrast-focus: color(var(--primary-contrast)
     blackness(var(--primary-contrast-focus-blackness)));
+
+  --primary-border-hover: color(var(--primary-border)
+    blackness(var(--primary-border-hover-blackness)));
+  --primary-border-focus: color(var(--primary-border)
+    blackness(var(--primary-border-focus-blackness)));
   /* end: primary theme */
 
   /* start: secondary theme */
@@ -32,6 +40,9 @@
 
   --secondary-contrast-hover-blackness: -5%;
   --secondary-contrast-focus-blackness: -10%;
+
+  --secondary-border-hover-blackness: +5%;
+  --secondary-border-focus-blackness: +10%;
 
   /* for using */
   --secondary-hover: color(var(--secondary)
@@ -43,6 +54,11 @@
     blackness(var(--secondary-contrast-hover-blackness)));
   --secondary-contrast-focus: color(var(--secondary-contrast)
     blackness(var(--secondary-contrast-focus-blackness)));
+
+  --secondary-border-hover: color(var(--secondary-border)
+    blackness(var(--secondary-border-hover-blackness)));
+  --secondary-border-focus: color(var(--secondary-border)
+    blackness(var(--secondary-border-focus-blackness)));
   /* end: secondary theme */
 
   /* start: tertiary theme */
@@ -52,6 +68,9 @@
 
   --tertiary-contrast-hover-blackness: -5%;
   --tertiary-contrast-focus-blackness: -10%;
+
+  --tertiary-border-hover-blackness: +5%;
+  --tertiary-border-focus-blackness: +10%;
 
   /* for using */
   --tertiary-hover: color(var(--tertiary)
@@ -63,6 +82,11 @@
     blackness(var(--tertiary-contrast-hover-blackness)));
   --tertiary-contrast-focus: color(var(--tertiary-contrast)
     blackness(var(--tertiary-contrast-focus-blackness)));
+
+  --tertiary-border-hover: color(var(--tertiary-border)
+    blackness(var(--tertiary-border-hover-blackness)));
+  --tertiary-border-focus: color(var(--tertiary-border)
+    blackness(var(--tertiary-border-focus-blackness)));
   /* end: tertiary theme */
 
   /* start: quaternary theme */
@@ -72,6 +96,9 @@
 
   --quaternary-contrast-hover-blackness: -5%;
   --quaternary-contrast-focus-blackness: -10%;
+
+  --quaternary-border-hover-blackness: +5%;
+  --quaternary-border-focus-blackness: +10%;
 
   /* for using */
   --quaternary-hover: color(var(--quaternary)
@@ -83,6 +110,11 @@
     blackness(var(--quaternary-contrast-hover-blackness)));
   --quaternary-contrast-focus: color(var(--quaternary-contrast)
     blackness(var(--quaternary-contrast-focus-blackness)));
+
+  --quaternary-border-hover: color(var(--quaternary-border)
+    blackness(var(--quaternary-border-hover-blackness)));
+  --quaternary-border-focus: color(var(--quaternary-border)
+    blackness(var(--quaternary-border-focus-blackness)));
   /* end: quaternary theme */
 
   /* start: quinary theme */
@@ -92,6 +124,9 @@
 
   --quinary-contrast-hover-blackness: -5%;
   --quinary-contrast-focus-blackness: -10%;
+
+  --quinary-border-hover-blackness: +5%;
+  --quinary-border-focus-blackness: +10%;
 
   /* for using */
   --quinary-hover: color(var(--quinary)
@@ -103,6 +138,11 @@
     blackness(var(--quinary-contrast-hover-blackness)));
   --quinary-contrast-focus: color(var(--quinary-contrast)
     blackness(var(--quinary-contrast-focus-blackness)));
+
+  --quinary-border-hover: color(var(--quinary-border)
+    blackness(var(--quinary-border-hover-blackness)));
+  --quinary-border-focus: color(var(--quinary-border)
+    blackness(var(--quinary-border-focus-blackness)));
   /* end: quinary theme */
 
   /* start: grayscale dark theme */
@@ -112,6 +152,9 @@
 
   --graydark-contrast-hover-blackness: -5%;
   --graydark-contrast-focus-blackness: -10%;
+
+  --graydark-border-hover-blackness: +5%;
+  --graydark-border-focus-blackness: +10%;
 
   /* for using */
   --graydark-hover: color(var(--graydark)
@@ -123,6 +166,11 @@
     blackness(var(--graydark-contrast-hover-blackness)));
   --graydark-contrast-focus: color(var(--graydark-contrast)
     blackness(var(--graydark-contrast-focus-blackness)));
+
+  --graydark-border-hover: color(var(--graydark-border)
+    blackness(var(--graydark-border-hover-blackness)));
+  --graydark-border-focus: color(var(--graydark-border)
+    blackness(var(--graydark-border-focus-blackness)));
   /* end: grayscale dark theme */
 
   /* start: grayscale light theme */
@@ -132,6 +180,9 @@
 
   --graylight-contrast-hover-blackness: -5%;
   --graylight-contrast-focus-blackness: -10%;
+
+  --graylight-border-hover-blackness: +5%;
+  --graylight-border-focus-blackness: +10%;
 
   /* for using */
   --graylight-hover: color(var(--graylight)
@@ -143,6 +194,11 @@
     blackness(var(--graylight-contrast-hover-blackness)));
   --graylight-contrast-focus: color(var(--graylight-contrast)
     blackness(var(--graylight-contrast-focus-blackness)));
+
+  --graylight-border-hover: color(var(--graylight-border)
+    blackness(var(--graylight-border-hover-blackness)));
+  --graylight-border-focus: color(var(--graylight-border)
+    blackness(var(--graylight-border-focus-blackness)));
   /* end: grayscale light theme */
 
   /* start: black and white light theme */
@@ -152,6 +208,9 @@
 
   --blackwhite-contrast-hover-blackness: -5%;
   --blackwhite-contrast-focus-blackness: -10%;
+
+  --blackwhite-border-hover-blackness: +5%;
+  --blackwhite-border-focus-blackness: +10%;
 
   /* for using */
   --blackwhite-hover: color(var(--blackwhite)
@@ -163,5 +222,10 @@
     blackness(var(--blackwhite-contrast-hover-blackness)));
   --blackwhite-contrast-focus: color(var(--blackwhite-contrast)
     blackness(var(--blackwhite-contrast-focus-blackness)));
+
+  --blackwhite-border-hover: color(var(--blackwhite-border)
+    blackness(var(--blackwhite-border-hover-blackness)));
+  --blackwhite-border-focus: color(var(--blackwhite-border)
+    blackness(var(--blackwhite-border-focus-blackness)));
   /* end: black and white light theme */
 }
