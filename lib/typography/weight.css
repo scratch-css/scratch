@@ -5,10 +5,13 @@
  * font weight by another one if it's not presented.
  */
 :root {
-  --font-slim: 200;
+  --font-thin: 100;
+  --font-extralight: 200;
   --font-light: 300;
   --font-regular: 400;
-  --font-semibold: 500;
+  --font-medium: 500;
+  --font-semibold: 600;
   --font-bold: 700;
-  --font-extrabold: 900;
+  --font-extrabold: 700;
+  --font-black: 900;
 }
