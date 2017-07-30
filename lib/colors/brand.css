@@ -16,39 +16,47 @@
   --primary: var(--green);
   --primary-contrast: white;
   --primary-border: white;
+  --primary-border-contrast: white;
 
   /* secondary theme */
   --secondary: var(--blue);
   --secondary-contrast: white;
   --secondary-border: white;
+  --secondary-border-contrast: white;
 
   /* tertiary theme */
   --tertiary: var(--red);
   --tertiary-contrast: white;
   --tertiary-border: white;
+  --tertiary-border-contrast: white;
 
   /* quaternary theme */
   --quaternary: var(--orange);
   --quaternary-contrast: white;
   --quaternary-border: white;
+  --quaternary-border-contrast: white;
 
   /* quinary theme */
   --quinary: var(--pink);
   --quinary-contrast: white;
   --quinary-border: white;
+  --quinary-border-contrast: white;
 
   /* grayscale dark theme */
   --graydark: var(--darkgray);
   --graydark-contrast: var(--midgray);
   --graydark-border: var(--midgray);
+  --graydark-border-contrast: var(--midgray);
 
   /* grayscale light theme */
   --graylight: var(--midgray);
   --graylight-contrast: var(--whitegray);
   --graylight-border: var(--whitegray);
+  --graylight-border-contrast: var(--whitegray);
 
   /* black and white theme */
   --blackwhite: var(--darkgray);
   --blackwhite-contrast: white;
   --blackwhite-border: white;
+  --blackwhite-border-contrast: white;
 }

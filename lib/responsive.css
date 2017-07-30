@@ -24,6 +24,9 @@
   --tablet-big: 1024px;
   --tablet-big-y: 1366px;
 
+  /* abstract */
+  --960gs: 960px;
+
   /* screens */
   /* tip: sometimes they are very close to tablets */
   /* PS: we don't necessarily have to set vertical
