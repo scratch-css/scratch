@@ -29,7 +29,7 @@
 /** Transition delay */
 :root {
   --transition-delay-base: 100;
-  --transition-delay: var(--transition-delat-base)var(--timing-unit);
+  --transition-delay: var(--transition-delay-base)var(--timing-unit);
   --transition-delay-sequence: var(--major-third);
 
   --transition-timing-function: ease;
