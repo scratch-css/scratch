@@ -6,7 +6,6 @@ Scratch is CSS framework and methodology to build web, mobile and TV application
 [![npm (scoped)](https://img.shields.io/npm/v/@scratch-css/scratch.svg)](https://www.npmjs.com/package/scratch-css/)
 [![David](https://img.shields.io/david/scratch-css/scratch.svg)](https://www.npmjs.com/package/scratch-css/scratch)
 
---
 
 Scratch provides management system for these fields:
 
@@ -28,7 +27,6 @@ We also have other libraries as modules to enhance its possibilities:
 
 They are based on Scratch, and are great examples of using it. You have all separated on `npm`, or you can use them [all together](https://github.com/scratch-css/all).
 
---
 
 ### Setup
 
@@ -50,17 +48,14 @@ Try to add this snippet in your CSS just to check if it works:
 
 Background must be green, [is not it](https://github.com/scratch-css/scratch/issues)?
 
---
 
 ### Visualization
 Scratch is not an UI framework, it just gives your a powerful API to build them efficiently. But, as I mentioned above, we also have UI components library on top of Scratch. It is available in [this repository](https://github.com/scratch-css/ui). You can install it via npm.
 
---
 
 ### Preprocessors
 Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe this is the best environment to write efficient, performant and pure CSS, with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
---
 
 ### History
 Scratch has a little history. It slowly begun to be developed back in 2011. It was documented on Georgian language and looked like [this](https://www.facebook.com/Radius.LLC/photos/a.293699317317685.70946.290079811012969/299426610078289/?type=3&theater). [The first version](https://github.com/nikoloza/scratch) on Github was written on LESS. It had built-in UI components, helpers and layout techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system. Then, I cleaned it up from unnecessary things and decided to divide it by domains. Now, it has became very lightweight and modular framework.
@@ -73,18 +68,15 @@ Scratch has a little history. It slowly begun to be developed back in 2011. It w
 - [vigour-io](https://github.com/vigour-io) - Significant improvements and cool ideas have came while working at Vigour.
 - You can also become supporter by [contributing](#contribution), [creating an issue](https://github.com/scratch-css/scratch/issues) for any new idea or just [being a stargazer](https://github.com/scratch-css/scratch/stargazers).
 
---
 
 ### Sponsors
 
 <a href="https://browserstack.com" target="_blank"><img src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" data-canonical-src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" width="300" height="157" /></a>
 
---
 
 ### License
 Scratch is [MIT licensed](LICENSE).
 
---
 
 ### Contribution
 To run a project, you probably need [Node.js](https://nodejs.org/en/download/) and [NPM](https://docs.npmjs.com/cli/install) installed.
