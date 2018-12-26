@@ -77,7 +77,7 @@ Scratch has a little history. It slowly begun to be developed back in 2011. It w
 
 ### Sponsors
 
-<img src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" data-canonical-src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" width="300" height="157" />
+<a href="https://browserstack.com" target="_blank"><img src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" data-canonical-src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" width="300" height="157" /></a>
 
 --
 
