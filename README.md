@@ -75,6 +75,12 @@ Scratch has a little history. It slowly begun to be developed back in 2011. It w
 
 --
 
+### Sponsors
+
+<img src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" data-canonical-src="https://cl.ly/5a14f4c08679/browserstack-logo-600x315.png" width="300" height="157" />
+
+--
+
 ### License
 Scratch is [MIT licensed](LICENSE).
 
