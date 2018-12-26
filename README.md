@@ -61,8 +61,6 @@ Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http
 Scratch has a little history. It slowly begun to be developed back in 2011. It was documented on Georgian language and looked like [this](https://www.facebook.com/Radius.LLC/photos/a.293699317317685.70946.290079811012969/299426610078289/?type=3&theater). [The first version](https://github.com/nikoloza/scratch) on Github was written on LESS. It had built-in UI components, helpers and layout techniques including [row-n](https://github.com/nikoloza/row-n-grid) grid system. Then, I cleaned it up from unnecessary things and decided to divide it by domains. Now, it has became very lightweight and modular framework.
 
 
---
-
 ### Authors
 - [nikoloza](https://github.com/nikoloza) - Creator of Scratch.
 - [vigour-io](https://github.com/vigour-io) - Significant improvements and cool ideas have came while working at Vigour.
