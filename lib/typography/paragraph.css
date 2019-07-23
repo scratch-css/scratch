@@ -6,6 +6,6 @@
 :root {
   /* base configuration is inherited from "./font.css" configuration */
   --paragraph-line-height: 1.5;
-  --paragraph-margin: 1var(--unit) 0 .5var(--unit);
+  --paragraph-margin: var(--sizing-unit) 0 .5var(--sizing-unit);
   --paragraph-family: var(--font-family-primary);
 }

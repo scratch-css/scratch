@@ -1,6 +1,6 @@
 /** Unit */
 
 :root {
-  --unit: rem;
-  --timing-unit: ms;
+  --sizing-unit: 1rem;
+  --timing-unit: 1ms;
 }

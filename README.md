@@ -30,9 +30,9 @@ They are based on Scratch, and are great examples of using it. You have all sepa
 
 ### Setup
 
-To add Scratch in your `npm` dependencies list, run:
+To add Scratch in your `dependencies` list, run:
 
-    npm install @scratch-css/scratch --save
+    yarn add @scratch-css/scratch --save
 
 You need to import it in your CSS file afterwards:
 
@@ -54,7 +54,7 @@ Scratch is not an UI framework, it just gives your a powerful API to build them 
 
 
 ### Preprocessors
-Right now, I intend to use [CSSNext](http://cssnext.io/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe this is the best environment to write efficient, performant and pure CSS, with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
+Right now, I intend to use [postcss-present-env](https://preset-env.cssdb.org/) based on [PostCSS](http://postcss.org/) to write tomorrow's CSS today. I believe this is the best environment to write efficient, performant and pure CSS, with no extra stuff and fastest compile time possible. I may add support for LESS and SASS lovers in the future depend on demand.
 
 
 ### History
@@ -81,11 +81,11 @@ To run a project, you probably need [Node.js](https://nodejs.org/en/download/) a
 
 To install dependencies you need to run:
 
-    npm i webpack webpack-dev-server -g && npm i
+    yarn
 
 To run, you can use:
 
-    npm start
+    yarn start
 
 For GIT related information, please read instructions at [Contributing to Open Source on GitHub](https://guides.github.com/activities/contributing-to-open-source/).
 

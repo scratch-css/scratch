@@ -2,11 +2,11 @@
 
 :root {
   /* unit */
-  --gutter-unit: var(--unit);
+  --gutter-unit: var(--sizing-unit);
 
   /* sequence */
   --gutter-sequence: var(--golden-ratio);
-  --gutter-base: 1.5;
+  --gutter-base: 1.6;
 
   --gutter: var(--gutter-base)var(--gutter-unit);
   --gutter-tiny: calc(var(--gutter-small) / var(--gutter-sequence));

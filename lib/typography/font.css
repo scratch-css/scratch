@@ -8,8 +8,8 @@
  */
 :root {
   /* Sequence */
-  --font-unit: var(--unit);
   --font-median: 1.4;
-  --font-base: var(--font-median)var(--font-unit);
+  --font-unit: var(--sizing-unit);
+  --font-base: calc(var(--font-median) * var(--font-unit));
   --font-sequence: var(--major-second);
 }
