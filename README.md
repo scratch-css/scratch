@@ -1,6 +1,6 @@
 # Φ / Scratch framework
 
-Scratch is CSS framework and methodology to build web, mobile and TV applications with one code base. We have micro modular architecture, so you choose what you really want to take. Using it means to follow some good practices, make everything configurable and easy to change. We have some built-in features as well as some additional modules you may also want to use.
+Scratch is CSS framework and methodology to build web, mobile and TV applications with one code base. We have micro modular architecture, so you only choose what you want to take. Using it means to follow some good practices, make everything configurable and easy to change. We have some built-in features as well as some additional modules you may also want to use.
 
 [![Gitter](https://img.shields.io/gitter/room/nwjs/nw.js.svg)](https://gitter.im/scratch-css/)
 [![npm (scoped)](https://img.shields.io/npm/v/@scratch-css/scratch.svg)](https://www.npmjs.com/package/scratch-css/)
