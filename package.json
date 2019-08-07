@@ -1,6 +1,6 @@
 {
   "name": "@scratch-css/scratch",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "lib/index.css",
   "scripts": {
     "start": "parcel index.html --no-cache",
