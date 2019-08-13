@@ -6,26 +6,17 @@
 
 :root {
   /* Serif font */
-  --font-serif-primary: 'Times New Roman';
-  --font-family-serif-primary: var(--font-serif-primary), var(--font-serif-secondary), Times, serif;
-
-  --font-serif-secondary: 'Garamond';
-  --font-family-serif-secondary: var(--font-serif-secondary), var(--font-serif-primary), Times, serif;
+  --font-serif: 'Times New Roman';
+  --font-family-serif: var(--font-serif), Times, serif;
 
   /* Sans serif font */
-  --font-sans-serif-primary: 'Source Sans Pro';
-  --font-family-sans-serif-primary: var(--font-sans-serif-primary), var(--font-sans-serif-secondary), -apple-system, Helvetica, Arial, sans-serif;
-
-  --font-sans-serif-secondary: 'Lato';
-  --font-family-sans-serif-secondary: var(--font-sans-serif-secondary), var(--font-sans-serif-primary), -apple-system, Helvetica, Arial, sans-serif;
+  --font-sans-serif: 'Source Sans Pro';
+  --font-family-sans-serif: var(--font-sans-serif), -apple-system, Helvetica, Arial, sans-serif;
 
   /* General font priorities */
-  --font-family-primary: var(--font-family-sans-serif-primary);
-  --font-family-secondary: var(--font-family-sans-serif-secondary);
-  --font-family-tertiary: var(--font-family-serif-primary);
-  --font-family-quaternary: var(--font-family-serif-secondary);
+  --font-family: var(--font-family-sans-serif);
 
   /* Monospace font */
-  --font-monospace-primary: 'Courier New';
+  --font-monospace: 'Courier New';
   --font-family-monospace: 'Courier New', Courier, monospace;
 }
