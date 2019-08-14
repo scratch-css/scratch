@@ -9,7 +9,7 @@
  * y = var(--heading-base) * var(--heading-base) * var(--heading-sequence) * x
  */
 :root {
-  --heading-family: var(--font-family-primary);
+  --heading-family: var(--font-family);
   --heading-weight: var(--document-font-weight);
   --heading-line-height: 1.4;
   --heading-margin: .4em 0 .2em;
