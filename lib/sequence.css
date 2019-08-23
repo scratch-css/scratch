@@ -16,9 +16,9 @@
   --augmented-fourth: 1.414;
   --perfect-fifth: 1.5;
   --phi: 1.618;
+  --golden-ratio: var(--phi);
   --square-root-3: 1.73205;
   --theodorus: var(--square-root-3);
-  --golden-ratio: var(--phi);
   --square-root-5: 2.23;
   --pythagoras: var(--square-root-5);
   --pi: 3.14;
